@@ -121,12 +121,12 @@
         
         main img {
             width: 90%;
-            }
+        }
             main img.pequena {
-    max-width: 300px;
-    display: block;
-    margin: auto;
-}
+            max-width: 300px;
+            display: block;
+            margin: auto;
+        }
         strong{
             color: #058a17;
             font-weight: bolder;
