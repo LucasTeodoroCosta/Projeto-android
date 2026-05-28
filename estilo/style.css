@@ -21,10 +21,14 @@
 
         }
 
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
 
         body{
             background-color: rgb(198, 245, 218);
-            margin: 0;
+            
         }
         a.externo::after{
             content: '\1F517';
@@ -33,7 +37,7 @@
             background:linear-gradient(#00EC20,#00CA1B,#008612,#00640D);
             width: 100%;
             margin: 0;
-            padding: 2px;
+            padding: 0px;
         }
         header > h1{
             font-family: "Bebas Neue", sans-serif;
@@ -54,7 +58,7 @@
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             width: 100%;
             margin: 0;
-            padding: 2px;
+            padding: 0px;
             box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.384);
         }
         nav > a {
@@ -72,8 +76,8 @@
         main{
             background-color: white;
             line-height: 1.6;
-            min-width: auto;
-            max-width: 800px;
+            min-width: 300px;
+            max-width: 1000px;
             margin: auto;
             padding: 20px;
             border-bottom-left-radius: 10px;
