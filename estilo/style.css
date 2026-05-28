@@ -120,9 +120,13 @@
         }
         
         picture{
+            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
+            max-width: 350px;
+    display: block;
+    margin: auto;
         }
         strong{
             color: #058a17;
