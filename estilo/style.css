@@ -120,10 +120,10 @@
         }
         
         main img {
-            width: 100%;
+            width: 90%;
             }
             main img.pequena {
-    max-width: 350px;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
