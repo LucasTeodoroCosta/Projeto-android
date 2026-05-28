@@ -119,15 +119,14 @@
             background-color:#048a162d ;
         }
         
-        picture{
+        main img {
             width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            max-width: 350px;
+            }
+            main img.pequena {
+    max-width: 350px;
     display: block;
     margin: auto;
-        }
+}
         strong{
             color: #058a17;
             font-weight: bolder;
